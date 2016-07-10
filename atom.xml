@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://chihkang.github.io/"/>
-  <updated>2016-07-09T13:16:21.907Z</updated>
+  <updated>2016-07-10T13:39:35.443Z</updated>
   <id>https://chihkang.github.io/</id>
   
   <author>
@@ -20,28 +20,30 @@
     <link href="https://chihkang.github.io/2016/07/09/Hexo-upload-to-GitHub/"/>
     <id>https://chihkang.github.io/2016/07/09/Hexo-upload-to-GitHub/</id>
     <published>2016-07-09T05:31:38.000Z</published>
-    <updated>2016-07-09T13:16:21.907Z</updated>
+    <updated>2016-07-10T13:39:35.443Z</updated>
     
     <content type="html">&lt;h3 id=&quot;GutHubPages&quot;&gt;&lt;a href=&quot;#GutHubPages&quot; class=&quot;headerlink&quot; title=&quot;GutHubPages&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://pages.github.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GutHubPages&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&amp;#x8981;&amp;#x4E0A;&amp;#x50B3;&amp;#x5230;&lt;a href=&quot;https://github.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;&amp;#x4E0A;&amp;#xFF0C;&amp;#x9996;&amp;#x5148;&amp;#x8981; &lt;em&gt;&lt;strong&gt;NewRepository&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
  &lt;img src=&quot;/2016/07/09/Hexo-upload-to-GitHub/newRepository.png&quot; alt=&quot;newRepository.png&quot; title=&quot;&quot;&gt;
-&lt;p&gt; Repository &amp;#x7684;&amp;#x540D;&amp;#x5B57;&amp;#x5FC5;&amp;#x9808;&amp;#x547D;&amp;#x540D;&amp;#x70BA; &lt;/p&gt;
- &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;yourname.github.io&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt; Repository &amp;#x7684;&amp;#x547D;&amp;#x540D;&amp;#x5FC5;&amp;#x9808;&amp;#x548C;GitHub&amp;#x5E33;&amp;#x865F;&amp;#x4E00;&amp;#x6A23;&lt;/p&gt;
+ &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;userName.github.io&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt; &amp;#x5EFA;&amp;#x7ACB;&amp;#x597D;&amp;#x4E4B;&amp;#x5F8C;&amp;#xFF0C;&amp;#x5275;&amp;#x7ACB;&amp;#x4E00;&amp;#x500B;&lt;code&gt;Branch&lt;/code&gt;&amp;#xFF0C;&amp;#x547D;&amp;#x540D;&amp;#x70BA;&lt;code&gt;gh-pages&lt;/code&gt;&lt;/p&gt;
  &lt;img src=&quot;/2016/07/09/Hexo-upload-to-GitHub/gh-pages.png&quot; alt=&quot;gh-pages.png&quot; title=&quot;&quot;&gt;
 &lt;p&gt; &amp;#x6B64;&amp;#x6642;&amp;#x8981;&amp;#x78BA;&amp;#x4FDD;&amp;#x6709;&amp;#x5169;&amp;#x500B;&lt;code&gt;Branch&lt;/code&gt;&amp;#x4EE5;&amp;#x4E0A;&lt;/p&gt;
 &lt;p&gt;  &amp;#x9EDE;&amp;#x9078;&amp;#x9078;&amp;#x55AE;&amp;#x5217;&amp;#x6700;&amp;#x53F3;&amp;#x908A;&amp;#x7684;&lt;em&gt;&lt;strong&gt;Settings&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;  &amp;#x5F80;&amp;#x4E0B;&amp;#x62C9;&amp;#x4E00;&amp;#x9EDE;&amp;#xFF0C;&amp;#x5982;&amp;#x679C;&amp;#x6709;&amp;#x770B;&amp;#x5230;&lt;/p&gt;
-  &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;Your site is published at https://YourName.github.io/&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+  &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;Your site is published at https://userName.github.io/&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;  &amp;#x5C31;&amp;#x4EE3;&amp;#x8868;&amp;#x9019;&amp;#x500B;&amp;#x7DB2;&amp;#x5740;&amp;#x5DF2;&amp;#x7D93;&amp;#x53EF;&amp;#x4EE5;&amp;#x6210;&amp;#x70BA;&amp;#x4F60;&amp;#x500B;&amp;#x4EBA;&amp;#x4F7F;&amp;#x7528;&amp;#x7684;&amp;#x7DB2;&amp;#x7AD9;&amp;#x56C9;~!&lt;/p&gt;
-&lt;h3 id=&quot;Upload-Hexo&quot;&gt;&lt;a href=&quot;#Upload-Hexo&quot; class=&quot;headerlink&quot; title=&quot;Upload-Hexo&quot;&gt;&lt;/a&gt;Upload-Hexo&lt;/h3&gt;&lt;p&gt;&amp;#x518D;&amp;#x4E0A;&amp;#x50B3;&amp;#x4E4B;&amp;#x524D;&amp;#x5FC5;&amp;#x9808;&amp;#x5148;&amp;#x8A2D;&amp;#x5B9A;&amp;#x76F8;&amp;#x95DC;&amp;#x53C3;&amp;#x6578;&amp;#x6A94;&amp;#x6848; &lt;code&gt;_config.yml&lt;/code&gt;&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;deploy:&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  type: git&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  repo: git@github.com:YourName/YourName.github.io.git&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  branch: master&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;Upload-Hexo&quot;&gt;&lt;a href=&quot;#Upload-Hexo&quot; class=&quot;headerlink&quot; title=&quot;Upload-Hexo&quot;&gt;&lt;/a&gt;Upload-Hexo&lt;/h3&gt;&lt;p&gt;&amp;#x4F7F;&amp;#x7528;git&amp;#x4E0A;&amp;#x50B3;&amp;#x5FC5;&amp;#x9808;&amp;#x8981;&amp;#x5148;&amp;#x5B89;&amp;#x88DD; &lt;a href=&quot;https://github.com/hexojs/hexo-deployer-git&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo-deployer-git&lt;/a&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ npm install hexo-deployer-git --save&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&amp;#x4E0A;&amp;#x50B3;&amp;#x4E4B;&amp;#x524D;&amp;#x5FC5;&amp;#x9808;&amp;#x5148;&amp;#x8A2D;&amp;#x5B9A;&amp;#x76F8;&amp;#x95DC;&amp;#x53C3;&amp;#x6578;&amp;#x6A94;&amp;#x6848; &lt;code&gt;_config.yml&lt;/code&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;deploy:&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  type: git&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  repo: git@github.com:userName/userName.github.io.git&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  branch: master&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&amp;#x4E0A;&amp;#x9762;&amp;#x7684;&amp;#x914D;&amp;#x7F6E;&amp;#x662F;&amp;#x4F7F;&amp;#x7528;&lt;code&gt;SSH&lt;/code&gt;&amp;#x7684;&amp;#x65B9;&amp;#x5F0F;&amp;#x3002;&lt;a href=&quot;https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Generating a new SSH key&lt;/a&gt;&lt;br&gt;&lt;code&gt;HTTPS&lt;/code&gt;&amp;#x65B9;&amp;#x5F0F;&amp;#x5982;&amp;#x4E0B;&lt;br&gt;repo: &lt;code&gt;https://github.com/YourName/YourName.github.io.git&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#x4E0A;&amp;#x9762;&amp;#x7684;&amp;#x914D;&amp;#x7F6E;&amp;#x662F;&amp;#x4F7F;&amp;#x7528;&lt;code&gt;SSH&lt;/code&gt;&amp;#x7684;&amp;#x65B9;&amp;#x5F0F;&amp;#x3002;&lt;a href=&quot;https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Generating a new SSH key&lt;/a&gt;&lt;br&gt;&lt;code&gt;HTTPS&lt;/code&gt;&amp;#x65B9;&amp;#x5F0F;&amp;#x5982;&amp;#x4E0B;&lt;br&gt;repo: &lt;code&gt;https://github.com/userName/userName.github.io.git&lt;/code&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&amp;#x8A2D;&amp;#x5B9A;&amp;#x597D;&amp;#x5F8C;&amp;#x57F7;&amp;#x884C;&lt;/p&gt;
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ hexo deploy&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;&amp;#x6700;&amp;#x5F8C;&amp;#xFF0C;&amp;#x900F;&amp;#x904E;&amp;#x700F;&amp;#x89BD;&amp;#x5668;&amp;#x57F7;&amp;#x884C;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://YourName.github.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://YourName.github.io/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://userName.github.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://userName.github.io/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&amp;#x61C9;&amp;#x8A72;&amp;#x5C31;&amp;#x53EF;&amp;#x4EE5;&amp;#x770B;&amp;#x5230;&amp;#x7DB2;&amp;#x7AD9;&amp;#x5DF2;&amp;#x7D93;&amp;#x4E0A;&amp;#x50B3;&amp;#x4E0A;&amp;#x53BB;GitHub&amp;#x56C9;~!&lt;/p&gt;
 </content>
     
