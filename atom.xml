@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://chihkang.github.io/"/>
-  <updated>2016-07-11T15:30:04.868Z</updated>
+  <updated>2016-07-11T15:58:32.000Z</updated>
   <id>https://chihkang.github.io/</id>
   
   <author>
@@ -14,6 +14,48 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo new draft</title>
+    <link href="https://chihkang.github.io/2016/07/11/Hexo-new-draft/"/>
+    <id>https://chihkang.github.io/2016/07/11/Hexo-new-draft/</id>
+    <published>2016-07-11T15:50:34.000Z</published>
+    <updated>2016-07-11T15:58:32.000Z</updated>
+    
+    <content type="html">&lt;h3 id=&quot;New-Draft&quot;&gt;&lt;a href=&quot;#New-Draft&quot; class=&quot;headerlink&quot; title=&quot;New Draft&quot;&gt;&lt;/a&gt;New Draft&lt;/h3&gt;&lt;p&gt;Hexo&amp;#x8981;&amp;#x5982;&amp;#x4F55;&amp;#x5EFA;&amp;#x7ACB;&amp;#x8349;&amp;#x7A3F;&amp;#x5462;?&lt;/p&gt;
+&lt;p&gt;&amp;#x4EE5;&amp;#x5F80;&amp;#x6211;&amp;#x5011;&amp;#x90FD;&amp;#x662F;&amp;#x4F7F;&amp;#x7528;&amp;#x4E0B;&amp;#x5217;&amp;#x6307;&amp;#x4EE4;&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ Hexo new &amp;lt;title&amp;gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&amp;#x5EFA;&amp;#x7ACB;&amp;#x8349;&amp;#x7A3F;&amp;#xFF0C;&amp;#x6539;&amp;#x7528;&amp;#x4E0B;&amp;#x5217;&amp;#x6307;&amp;#x4EE4;&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ Hexo new draft &amp;lt;title&amp;gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&amp;#x7522;&amp;#x751F;&amp;#x51FA;&amp;#x4F86;&amp;#x7684;&amp;#x8349;&amp;#x7A3F;&amp;#x6703;&amp;#x653E;&amp;#x5728;&lt;code&gt;source/_drafts&lt;/code&gt;&amp;#x5E95;&amp;#x4E0B;&lt;/p&gt;
+&lt;p&gt;&amp;#x4E00;&amp;#x822C;&amp;#x4F7F;&amp;#x7528;&lt;code&gt;hexo generate&lt;/code&gt;&amp;#x4E26;&amp;#x4E0D;&amp;#x6703;&amp;#x7DE8;&amp;#x8B6F;&amp;#x8A72;&amp;#x76EE;&amp;#x9304;&amp;#x4E0B;&amp;#x7684;&amp;#x6A94;&amp;#x6848;&lt;/p&gt;
+&lt;p&gt;&amp;#x56E0;&amp;#x6B64;&amp;#x4F7F;&amp;#x7528;&lt;code&gt;hexo s&lt;/code&gt;&amp;#x5F8C;&amp;#x4E26;&amp;#x4E0D;&amp;#x80FD;&amp;#x770B;&amp;#x5230;&amp;#x76F8;&amp;#x95DC;&amp;#x6587;&amp;#x7AE0;&amp;#x3002;&lt;/p&gt;
+&lt;p&gt;&amp;#x9808;&amp;#x6539;&amp;#x7528;&amp;#x4EE5;&amp;#x4E0B;&amp;#x6307;&amp;#x4EE4;&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ hexo server --draft&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Note : &amp;#x6216;&amp;#x662F;&amp;#x8ABF;&amp;#x6574; &lt;code&gt;_config.yml&lt;/code&gt;&lt;br&gt;&lt;code&gt;render_drafts&lt;/code&gt; &amp;#x8A2D;&amp;#x5B9A;&amp;#x6539;&amp;#x70BA; &lt;code&gt;true&lt;/code&gt; &amp;#x4F86;&amp;#x9810;&amp;#x89BD;&amp;#x8349;&amp;#x7A3F;&amp;#x3002;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&amp;#x8349;&amp;#x7A3F;&amp;#x7DE8;&amp;#x8F2F;&amp;#x5B8C;&amp;#x5F8C;&amp;#x4F7F;&amp;#x7528;&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ hexo publish &amp;lt;fileName&amp;gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&amp;#x5C07;&amp;#x8349;&amp;#x7A3F;&amp;#x79FB;&amp;#x52D5;&amp;#x5230; &lt;code&gt;source/_posts&lt;/code&gt; &amp;#x8CC7;&amp;#x6599;&amp;#x593E;&amp;#xFF0C;&amp;#x6210;&amp;#x70BA;&amp;#x6B63;&amp;#x5F0F;&amp;#x6587;&amp;#x7AE0;&amp;#x3002;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Note : &lt;filename&gt; &amp;#x4E0D;&amp;#x9808;&amp;#x5305;&amp;#x542B;&lt;code&gt;.md&lt;/code&gt;&amp;#x526F;&amp;#x6A94;&amp;#x540D;&lt;/filename&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&amp;#x4F7F;&amp;#x7528;&amp;#x8349;&amp;#x7A3F;&amp;#x53EF;&amp;#x4EE5;&amp;#x8B93;&amp;#x6211;&amp;#x5011;&amp;#x540C;&amp;#x6642;&amp;#x7DE8;&amp;#x8F2F;&amp;#x591A;&amp;#x500B;&amp;#x6587;&amp;#x7AE0;&amp;#xFF0C;&lt;/p&gt;
+&lt;p&gt;&amp;#x5373;&amp;#x4F7F;&amp;#x6587;&amp;#x7AE0;&amp;#x672A;&amp;#x5B8C;&amp;#x6210;&amp;#xFF0C;&amp;#x4E5F;&amp;#x4E0D;&amp;#x6703;&amp;#x56E0;&amp;#x70BA;&lt;code&gt;hexo deploy&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#x800C;&amp;#x88AB;&amp;#x767C;&amp;#x4F48;&amp;#x51FA;&amp;#x53BB;&amp;#xFF0C;&amp;#x5F37;&amp;#x70C8;&amp;#x5EFA;&amp;#x8B70;&amp;#x5927;&amp;#x5BB6;&amp;#x591A;&amp;#x4F7F;&amp;#x7528;&amp;#x8349;&amp;#x7A3F;&amp;#x6A5F;&amp;#x5236;&amp;#x5537;&amp;#x3002;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;New-Draft&quot;&gt;&lt;a href=&quot;#New-Draft&quot; class=&quot;headerlink&quot; title=&quot;New Draft&quot;&gt;&lt;/a&gt;New Draft&lt;/h3&gt;&lt;p&gt;Hexo&amp;#x8981;&amp;#x5982;&amp;#x4F55;&amp;#x5EFA;&amp;#x7AC
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="https://chihkang.github.io/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo Change Themes</title>
