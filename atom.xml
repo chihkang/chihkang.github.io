@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://chihkang.github.io/"/>
-  <updated>2016-07-11T15:58:32.000Z</updated>
+  <updated>2016-07-14T14:34:08.682Z</updated>
   <id>https://chihkang.github.io/</id>
   
   <author>
@@ -14,6 +14,41 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo add comment</title>
+    <link href="https://chihkang.github.io/2016/07/14/Hexo-add-comment/"/>
+    <id>https://chihkang.github.io/2016/07/14/Hexo-add-comment/</id>
+    <published>2016-07-14T14:34:08.000Z</published>
+    <updated>2016-07-14T14:34:08.682Z</updated>
+    
+    <content type="html">&lt;h3 id=&quot;Add-Comment&quot;&gt;&lt;a href=&quot;#Add-Comment&quot; class=&quot;headerlink&quot; title=&quot;Add Comment&quot;&gt;&lt;/a&gt;Add Comment&lt;/h3&gt;&lt;p&gt;&amp;#x9019;&amp;#x908A;&amp;#x6703;&amp;#x63A1;&amp;#x7528;&amp;#x5927;&amp;#x5BB6;&amp;#x6BD4;&amp;#x8F03;&amp;#x5E38;&amp;#x898B;&amp;#x7684; &lt;a href=&quot;https://disqus.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Disqus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#x7533;&amp;#x8ACB;&amp;#x5B8C;&amp;#x5E33;&amp;#x865F;&amp;#x4EE5;&amp;#x5F8C;&amp;#xFF0C;&amp;#x5225;&amp;#x5FD8;&amp;#x4E86;&amp;#x8A18;&amp;#x4F4F;&amp;#x81EA;&amp;#x5DF1;&amp;#x7684; &lt;code&gt;shortName&lt;/code&gt;&amp;#x3002;&lt;/p&gt;
+&lt;p&gt;&amp;#x4E4B;&amp;#x5F8C;&amp;#x6253;&amp;#x958B;&amp;#x81EA;&amp;#x5DF1;&amp;#x9078;&amp;#x5B9A;&amp;#x7684; &lt;code&gt;themes&lt;/code&gt; &amp;#x4E0B;&amp;#x9762;&amp;#x7684; &lt;code&gt;_config.yml&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#x627E;&amp;#x5230;&lt;code&gt;disqus:&lt;/code&gt; &amp;#x5F8C;&amp;#x9762;&amp;#x586B;&amp;#x4E0A;&amp;#x81EA;&amp;#x5DF1; Disqus &amp;#x7684; &lt;code&gt;shortName&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#x50CF;&amp;#x662F;&amp;#x4E0B;&amp;#x65B9;&amp;#x7A0B;&amp;#x5F0F;&amp;#x78BC;&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;figcaption&gt;&lt;span&gt;\themes\themeFolderName\_config.yml&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;# Comment&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;# e.g disqus: seansun&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;disqus: &amp;lt;YourshortName&amp;gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&amp;#x9019;&amp;#x6A23;&amp;#x5C31;&amp;#x5927;&amp;#x529F;&amp;#x544A;&amp;#x6210;&amp;#x5566;~!&lt;/p&gt;
+&lt;p&gt;&amp;#x4E0D;&amp;#x904E;&amp;#xFF0C;&amp;#x4E0D;&amp;#x662F;&amp;#x6BCF;&amp;#x500B;&amp;#x4E3B;&amp;#x984C;&amp;#x90FD;&amp;#x6709;&amp;#x6DFB;&amp;#x52A0;Comment&amp;#x7684;&amp;#x8A2D;&amp;#x8A08;&amp;#xFF0C;&lt;/p&gt;
+&lt;p&gt;&amp;#x5982;&amp;#x679C;&amp;#x60F3;&amp;#x8981;&amp;#x81EA;&amp;#x5DF1;&amp;#x65B0;&amp;#x589E;&amp;#x7684;&amp;#x8A71;&amp;#xFF0C;&amp;#x53EF;&amp;#x4EE5;&amp;#x53C3;&amp;#x8003; &lt;a href=&quot;http://morris821028.github.io/2014/04/12/web/hexo-comment/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Morris&amp;#x2019; Blog&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Note : Disqus &amp;#x767B;&amp;#x5165;&amp;#x5F8C;&amp;#xFF0C;&amp;#x9EDE;&amp;#x9078;&amp;#x53F3;&amp;#x4E0A;&amp;#x65B9;&amp;#x982D;&amp;#x50CF; &lt;code&gt;Admin&lt;/code&gt;&amp;#xFF0C;&amp;#x518D;&amp;#x9EDE;&amp;#x9078; Menu&amp;#x5217; &amp;#x4E0A;&amp;#x65B9; Settings &lt;/p&gt;
+&lt;p&gt;&amp;#x518D;&amp;#x9EDE;&amp;#x9078;&amp;#x5DE6;&amp;#x908A;&amp;#x7684; Sites &amp;gt; Edit Settings &amp;gt; &amp;#x53EF;&amp;#x4EE5;&amp;#x4FEE;&amp;#x6539; WebSiteName &amp;#x548C; WebSiteUrl&lt;/p&gt;
+&lt;p&gt;&amp;#x65E5;&amp;#x5F8C;&amp;#x5982;&amp;#x679C;&amp;#x60F3;&amp;#x8981;&amp;#x66F4;&amp;#x52D5;&amp;#xFF0C;&amp;#x53EF;&amp;#x5225;&amp;#x5FD8;&amp;#x4E86;&amp;#x3002; (&amp;#x4E5F;&amp;#x53EF;&amp;#x4EE5;&amp;#x5728;&amp;#x767B;&amp;#x5165;&amp;#x5F8C;&amp;#xFF0C;&amp;#x524D;&amp;#x5F80;&amp;#x4E0B;&amp;#x5217;&amp;#x7DB2;&amp;#x5740;)&lt;/p&gt;
+&lt;p&gt;https://&amp;lt;&lt;code&gt;shortName&lt;/code&gt;&amp;gt;.disqus.com/admin/settings/general/&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;Add-Comment&quot;&gt;&lt;a href=&quot;#Add-Comment&quot; class=&quot;headerlink&quot; title=&quot;Add Comment&quot;&gt;&lt;/a&gt;Add Comment&lt;/h3&gt;&lt;p&gt;&amp;#x9019;&amp;#x908A;&amp;#x6703;&amp;#x63A1;&amp;#
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="https://chihkang.github.io/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo new draft</title>
