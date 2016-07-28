@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://chihkang.github.io/"/>
-  <updated>2016-07-14T14:34:08.682Z</updated>
+  <updated>2016-07-28T14:14:46.266Z</updated>
   <id>https://chihkang.github.io/</id>
   
   <author>
@@ -14,6 +14,45 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>C# Multi Language</title>
+    <link href="https://chihkang.github.io/2016/07/28/Language/"/>
+    <id>https://chihkang.github.io/2016/07/28/Language/</id>
+    <published>2016-07-28T14:14:46.000Z</published>
+    <updated>2016-07-28T14:14:46.266Z</updated>
+    
+    <content type="html">&lt;h3 id=&quot;C-Multi-Language&quot;&gt;&lt;a href=&quot;#C-Multi-Language&quot; class=&quot;headerlink&quot; title=&quot;C# Multi Language&quot;&gt;&lt;/a&gt;C# Multi Language&lt;/h3&gt;&lt;p&gt;&amp;#x5982;&amp;#x4F55;&amp;#x5728;&amp;#x7DB2;&amp;#x7AD9;&amp;#x4E2D;&amp;#x4F7F;&amp;#x7528;&amp;#x591A;&amp;#x570B;&amp;#x8A9E;&amp;#x7CFB;&amp;#x7684;&amp;#x914D;&amp;#x7F6E;?&lt;/p&gt;
+&lt;p&gt;&amp;#x76F4;&amp;#x89BA;&amp;#x53CD;&amp;#x61C9;&amp;#x5C31;&amp;#x6703;&amp;#x548C;&lt;code&gt;resource&lt;/code&gt;&amp;#x6A94;&amp;#x6848;&amp;#x6709;&amp;#x95DC;&amp;#x4FC2;&lt;/p&gt;
+&lt;p&gt;&amp;#x4EE5;&amp;#x4E0B;&amp;#x6703;&amp;#x5EFA;&amp;#x8B70;&amp;#x4F7F;&amp;#x7528;&amp;#x985E;&amp;#x5225;&amp;#x5EAB;(dll)&amp;#x7684;&amp;#x65B9;&amp;#x5F0F;&amp;#x4F86;&amp;#x5EFA;&amp;#x7ACB;&amp;#xFF0C;&lt;/p&gt;
+&lt;p&gt;&amp;#x9019;&amp;#x6A23;&amp;#x65E5;&amp;#x5F8C;&amp;#x82E5;&amp;#x662F;&amp;#x8981;&amp;#x66F4;&amp;#x65B0;&amp;#x6642;&amp;#xFF0C;&amp;#x53EF;&amp;#x4EE5;&amp;#x76F4;&amp;#x63A5;&amp;#x66FF;&amp;#x63DB;&amp;#x8A72;dll&amp;#xFF0C;&amp;#x800C;&amp;#x4E0D;&amp;#x9700;&amp;#x8981;&amp;#x91CD;&amp;#x555F;&amp;#x7DB2;&amp;#x7AD9;&amp;#x3002;&lt;/p&gt;
+&lt;p&gt;&amp;#x985E;&amp;#x5225;&amp;#x5EAB;&amp;#x50C5;&amp;#x9700;&amp;#x91DD;&amp;#x5C0D;&lt;code&gt;Views&lt;/code&gt;&amp;#x76F8;&amp;#x95DC;&amp;#x7684;&amp;#x8CC7;&amp;#x6599;&amp;#x593E;&amp;#x9032;&amp;#x884C;&amp;#x4E00;&amp;#x6A21;&amp;#x4E00;&amp;#x6A23;&amp;#x7684;&amp;#x93E1;&amp;#x50CF;&amp;#x914D;&amp;#x7F6E;&amp;#x5373;&amp;#x53EF;&amp;#x3002;&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;8&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;9&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;10&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;11&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;12&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;13&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;Web.Resource&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;#x251C;&amp;#x2500;&amp;#x2500; Properties&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;#x251C;&amp;#x2500;&amp;#x2500; &amp;#x53C3;&amp;#x8003;(Reference)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;#x251C;&amp;#x2500;&amp;#x2500; Domain&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;#x251C;&amp;#x2500;&amp;#x2500; public&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;#x251C;&amp;#x2500;&amp;#x2500; Service&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;#x251C;&amp;#x2500;&amp;#x2500; ViewModels&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;#x251C;&amp;#x2500;&amp;#x2500; Views&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;   &amp;#x251C;&amp;#x2500;&amp;#x2500; Home&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;   &amp;#x2502;   	&amp;#x2514;&amp;#x2500;&amp;#x2500; Index.resx&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;   &amp;#x2502;   	&amp;#x2514;&amp;#x2500;&amp;#x2500; Index.en-US.resx&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;   &amp;#x2502;   	&amp;#x2514;&amp;#x2500;&amp;#x2500; Index.zh-CN.resx &lt;/div&gt;&lt;div class=&quot;line&quot;&gt;   &amp;#x251C;&amp;#x2500;&amp;#x2500; Shared&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Note : &amp;#x9810;&amp;#x8A2D;&amp;#x8A9E;&amp;#x7CFB; &amp;#x8A18;&amp;#x5F97;&amp;#x5B58;&amp;#x53D6;&amp;#x6B0A;&amp;#x9650;&amp;#x8981;&amp;#x6539;&amp;#x6210;Public (Index.resx)&lt;br&gt;&amp;#x5176;&amp;#x5B83;&amp;#x8A9E;&amp;#x7CFB;&amp;#x7684;&amp;#x5B58;&amp;#x53D6;&amp;#x6B0A;&amp;#x9650;&amp;#x662F; &amp;#x6C92;&amp;#x6709;&amp;#x7A0B;&amp;#x5F0F;&amp;#x78BC;&amp;#x7522;&amp;#x751F; (Index.en-US.resx)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&amp;#x8CC7;&amp;#x6E90;&amp;#x6A94;&amp;#x4FEE;&amp;#x6539;&amp;#x4E5F;&amp;#x662F;&amp;#x9817;&amp;#x9EBB;&amp;#x7169;&amp;#xFF0C;&amp;#x5EFA;&amp;#x8B70;&amp;#x5B89;&amp;#x88DD; &lt;a href=&quot;https://visualstudiogallery.msdn.microsoft.com/3b64e04c-e8de-4b97-8358-06c73a97cc68&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;ResXManager(Free)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#x9019;&amp;#x6A23;&amp;#x4E00;&amp;#x6B21;&amp;#x53EF;&amp;#x4EE5;&amp;#x5168;&amp;#x90E8;&amp;#x8A9E;&amp;#x7CFB;&amp;#x4E00;&amp;#x8D77;&amp;#x4FEE;&amp;#x6539;&amp;#xFF0C;&amp;#x5167;&amp;#x5EFA;&amp;#x7FFB;&amp;#x8B6F;&amp;#x529F;&amp;#x80FD;&amp;#xFF0C;&amp;#x76F8;&amp;#x7576;&amp;#x65B9;&amp;#x4FBF;&amp;#x3002;&lt;/p&gt;
+&lt;p&gt;&amp;#x63A5;&amp;#x4E0B;&amp;#x4F86;&amp;#x7684;&amp;#x6B65;&amp;#x9A5F;&amp;#x5C31;&amp;#x6709;&amp;#x9EDE;&amp;#x650F;&amp;#x9577;&amp;#x4E86;&amp;#xFF0C;&amp;#x5B8C;&amp;#x6574;&amp;#x505A;&amp;#x6CD5;&amp;#x53EF;&amp;#x4EE5;&amp;#x53C3;&amp;#x8003;&amp;#x4E0B;&amp;#x5217;&amp;#x7DB2;&amp;#x5740;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://dotblogs.com.tw/wasichris/2015/06/20/151608&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&amp;#x641E;&amp;#x641E;&amp;#x5C31;&amp;#x61C2;&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;&amp;#x7C21;&amp;#x5316;&amp;#x4E00;&amp;#x4E0B;&amp;#x76F8;&amp;#x95DC;&amp;#x6D41;&amp;#x7A0B;&amp;#x597D;&amp;#x4E86;~!&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&amp;#x5EFA;&amp;#x7ACB;Resource&amp;#x6A94;&amp;#x6848;&lt;/li&gt;
+&lt;li&gt;&amp;#x8A2D;&amp;#x5B9A;&amp;#x6B32;&amp;#x5207;&amp;#x63DB;&amp;#x7684;&amp;#x8A9E;&amp;#x7CFB;&amp;#x8CC7;&amp;#x6599;&lt;/li&gt;
+&lt;li&gt;&amp;#x5229;&amp;#x7528;Cookie&amp;#x4F86;&amp;#x5132;&amp;#x5B58;&amp;#x504F;&amp;#x597D;&amp;#x7684;&amp;#x8A9E;&amp;#x7CFB;&lt;/li&gt;
+&lt;li&gt;&amp;#x4F7F;&amp;#x7528;&amp;#x8CC7;&amp;#x6E90;&amp;#x6A94;&amp;#x6848; (View&amp;#x7684;&amp;#x914D;&amp;#x7F6E;)&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;C-Multi-Language&quot;&gt;&lt;a href=&quot;#C-Multi-Language&quot; class=&quot;headerlink&quot; title=&quot;C# Multi Language&quot;&gt;&lt;/a&gt;C# Multi Language&lt;/h3&gt;&lt;p&gt;&amp;#x5982;&amp;#x4
+    
+    </summary>
+    
+    
+      <category term="C#" scheme="https://chihkang.github.io/tags/C/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo add comment</title>
