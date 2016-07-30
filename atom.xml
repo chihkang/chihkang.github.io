@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://chihkang.github.io/"/>
-  <updated>2016-07-28T14:14:46.266Z</updated>
+  <updated>2016-07-30T14:09:56.422Z</updated>
   <id>https://chihkang.github.io/</id>
   
   <author>
@@ -14,6 +14,71 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Docker-Getting-Started</title>
+    <link href="https://chihkang.github.io/2016/07/30/Docker-Getting-Started/"/>
+    <id>https://chihkang.github.io/2016/07/30/Docker-Getting-Started/</id>
+    <published>2016-07-30T14:09:56.000Z</published>
+    <updated>2016-07-30T14:09:56.422Z</updated>
+    
+    <content type="html">&lt;h3 id=&quot;Docker-Getting-Started&quot;&gt;&lt;a href=&quot;#Docker-Getting-Started&quot; class=&quot;headerlink&quot; title=&quot;Docker-Getting-Started&quot;&gt;&lt;/a&gt;Docker-Getting-Started&lt;/h3&gt;&lt;p&gt;&amp;#x6700;&amp;#x8FD1;&amp;#x6280;&amp;#x8853;&amp;#x5F88;&amp;#x706B;&amp;#x7D05;&amp;#x7684;&amp;#x5C31;&amp;#x662F;Docker&amp;#x5566;~&lt;/p&gt;
+&lt;p&gt;&amp;#x7528;&amp;#x6B64;&amp;#x7D00;&amp;#x9304;&amp;#x4E00;&amp;#x4E0B;&amp;#x7DF4;&amp;#x7FD2;&amp;#x4E0A;&amp;#x9047;&amp;#x5230;&amp;#x7684;&amp;#x76F8;&amp;#x95DC;&amp;#x554F;&amp;#x984C;!&lt;/p&gt;
+&lt;p&gt;&amp;#x53EF;&amp;#x4EE5;&amp;#x5148;&amp;#x900F;&amp;#x904E;&amp;#x4E0B;&amp;#x5217;&amp;#x9023;&amp;#x7D50;&amp;#x4F86;&amp;#x4E86;&amp;#x89E3;&amp;#x4E00;&amp;#x4E0B;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x4EC0;&amp;#x9EBC;&amp;#x662F;Docker (&lt;a href=&quot;https://philipzheng.gitbooks.io/docker_practice/content/introduction/what.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Docker &amp;#x2014;&amp;#x2014; &amp;#x5F9E;&amp;#x5165;&amp;#x9580;&amp;#x5230;&amp;#x5BE6;&amp;#x8E10;&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x70BA;&amp;#x4EC0;&amp;#x9EBC;&amp;#x8981;&amp;#x7528;Docker (&lt;a href=&quot;https://philipzheng.gitbooks.io/docker_practice/content/introduction/why.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Docker &amp;#x2014;&amp;#x2014; &amp;#x5F9E;&amp;#x5165;&amp;#x9580;&amp;#x5230;&amp;#x5BE6;&amp;#x8E10;&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;Step-1-Install-Docker-for-Windows&quot;&gt;&lt;a href=&quot;#Step-1-Install-Docker-for-Windows&quot; class=&quot;headerlink&quot; title=&quot;Step 1. Install Docker for Windows&quot;&gt;&lt;/a&gt;Step 1. Install Docker for Windows&lt;/h3&gt;&lt;p&gt;&amp;#x5F9E; &lt;a href=&quot;https://www.docker.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.docker.com/&lt;/a&gt;&amp;#x4E0A;&amp;#x53EF;&amp;#x4EE5;&amp;#x5F97;&amp;#x5230;&amp;#x5F88;&amp;#x5B8C;&amp;#x6574;&amp;#x7684;&amp;#x5B89;&amp;#x88DD;&amp;#x8CC7;&amp;#x8A0A;&lt;/p&gt;
+&lt;p&gt;&amp;#x9019;&amp;#x908A;&amp;#x6703;&amp;#x4EE5;Windows 10&amp;#x70BA;&amp;#x4F8B;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x9996;&amp;#x5148;&amp;#x8981;&amp;#x5148;&amp;#x78BA;&amp;#x8A8D;&amp;#x4F60;&amp;#x7684;Windows 10 &amp;#x7248;&amp;#x672C;&amp;#x662F;&amp;#x4EC0;&amp;#x9EBC;&amp;#xFF0C;&amp;#x53EA;&amp;#x6709;&lt;code&gt;&amp;#x5C08;&amp;#x696D;&amp;#x7248;&lt;/code&gt;&amp;#x548C;&lt;code&gt;&amp;#x6559;&amp;#x80B2;&amp;#x7248;&lt;/code&gt;&amp;#x624D;&amp;#x53EF;&amp;#x4EE5;&amp;#x76F4;&amp;#x63A5;&amp;#x4F7F;&amp;#x7528;&amp;#x5B89;&amp;#x88DD;&amp;#x6A94;&amp;#x5537;&amp;#x3002;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x958B;&amp;#x555F;Hyper-V &lt;a href=&quot;https://msdn.microsoft.com/zh-tw/virtualization/hyperv_on_windows/quick_start/walkthrough_install&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&amp;#x5728; Windows 10 &amp;#x4E0A;&amp;#x5B89;&amp;#x88DD; Hyper-V&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;Step-2-Start-Docker-for-Windows&quot;&gt;&lt;a href=&quot;#Step-2-Start-Docker-for-Windows&quot; class=&quot;headerlink&quot; title=&quot;Step 2. Start Docker for Windows&quot;&gt;&lt;/a&gt;Step 2. Start Docker for Windows&lt;/h3&gt;&lt;p&gt;&amp;#x5B89;&amp;#x88DD;&amp;#x5B8C;&amp;#x5F8C;&amp;#xFF0C;&amp;#x518D;&amp;#x8B93;&amp;#x7CFB;&amp;#x7D71;&amp;#x8DD1;&amp;#x4E00;&amp;#x4E0B;&amp;#x5C31;&amp;#x6703;&amp;#x81EA;&amp;#x52D5;&amp;#x555F;&amp;#x52D5;&amp;#x4E86;&lt;/p&gt;
+&lt;p&gt;&amp;#x53EF;&amp;#x4EE5;&amp;#x6CE8;&amp;#x610F;&amp;#x756B;&amp;#x9762;&amp;#x53F3;&amp;#x4E0B;&amp;#x89D2;&amp;#x6703;&amp;#x51FA;&amp;#x73FE; Docker &amp;#x7684;&amp;#x5716;&amp;#x793A;&lt;/p&gt;
+&lt;h3 id=&quot;Step-3-Check-versions-of-Docker-Engine-Compose-and-Machine&quot;&gt;&lt;a href=&quot;#Step-3-Check-versions-of-Docker-Engine-Compose-and-Machine&quot; class=&quot;headerlink&quot; title=&quot;Step 3. Check versions of Docker Engine, Compose, and Machine&quot;&gt;&lt;/a&gt;Step 3. Check versions of Docker Engine, Compose, and Machine&lt;/h3&gt;&lt;p&gt;&amp;#x900F;&amp;#x904E; Command Line &amp;#x9032;&amp;#x884C;&amp;#x4E0B;&amp;#x5217;&amp;#x4E09;&amp;#x500B;&amp;#x8A9E;&amp;#x6CD5;&amp;#xFF0C;&amp;#x53EF;&amp;#x4EE5;&amp;#x67E5;&amp;#x8A62;&amp;#x76F8;&amp;#x95DC;&amp;#x7684;&amp;#x7248;&amp;#x672C;&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;8&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ docker --version&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  Docker version 1.12.0, build 8eab29e&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;$ docker-compose --version&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  docker-compose version 1.8.0, build d988a55&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;$ docker-machine --version&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  docker-machine version 0.8.0, build b85aac1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;Step-4-Explore-the-application-and-run-examples&quot;&gt;&lt;a href=&quot;#Step-4-Explore-the-application-and-run-examples&quot; class=&quot;headerlink&quot; title=&quot;Step 4. Explore the application and run examples&quot;&gt;&lt;/a&gt;Step 4. Explore the application and run examples&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Open a shell (cmd.exe, &lt;code&gt;PowerShell&lt;/code&gt;, or other).&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Run some Docker commands, such as &lt;code&gt;docker ps&lt;/code&gt;, &lt;code&gt;docker version&lt;/code&gt;, and &lt;code&gt;docker info&lt;/code&gt;.&lt;br&gt;Here is the output of docker &lt;code&gt;ps run in a powershell&lt;/code&gt;. (In this example, no containers are running yet.)&lt;/p&gt;
+&lt;p&gt;&amp;#x53EF;&amp;#x4EE5;&amp;#x8A66;&amp;#x8457;&amp;#x57F7;&amp;#x884C;&amp;#x770B;&amp;#x770B;&amp;#x4E0A;&amp;#x9762;&amp;#x4E09;&amp;#x500B;&amp;#x8A9E;&amp;#x6CD5;&amp;#xFF0C;&amp;#x770B;&amp;#x770B;&amp;#x76F8;&amp;#x95DC;&amp;#x8A0A;&amp;#x606F;&amp;#x3002;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Run docker run hello-world to test pulling an image from Docker Hub and starting a container.&lt;/p&gt;
+&lt;p&gt;&amp;#x4E0B;&amp;#x9762;&amp;#x6307;&amp;#x4EE4;&amp;#x662F;&amp;#x5728; &lt;code&gt;PowerShell&lt;/code&gt; &amp;#x6240;&amp;#x4F7F;&amp;#x7528;&amp;#x7684;&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;8&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;9&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;10&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;11&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;12&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;13&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;14&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;15&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;16&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;17&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;18&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;19&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;20&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;21&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;PS C:\Users\Lin&amp;gt; docker run hello-world&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;Hello from Docker!&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;This message shows that your installation appears to be working correctly.&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;To generate this message, Docker took the following steps:&lt;/div&gt;&lt;div class=&quot;line&quot;&gt; 1. The Docker client contacted the Docker daemon.&lt;/div&gt;&lt;div class=&quot;line&quot;&gt; 2. The Docker daemon pulled the &amp;quot;hello-world&amp;quot; image from the Docker Hub.&lt;/div&gt;&lt;div class=&quot;line&quot;&gt; 3. The Docker daemon created a new container from that image which runs the&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    executable that produces the output you are currently reading.&lt;/div&gt;&lt;div class=&quot;line&quot;&gt; 4. The Docker daemon streamed that output to the Docker client, which sent it&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    to your terminal.&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;To try something more ambitious, you can run an Ubuntu container with:&lt;/div&gt;&lt;div class=&quot;line&quot;&gt; $ docker run -it ubuntu bash&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;Share images, automate workflows, and more with a free Docker Hub account:&lt;/div&gt;&lt;div class=&quot;line&quot;&gt; https://hub.docker.com&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;For more examples and ideas, visit:&lt;/div&gt;&lt;div class=&quot;line&quot;&gt; https://docs.docker.com/engine/userguide/&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Try something more ambitious, and run an Ubuntu container in a Bash shell.&lt;/p&gt;
+ &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;docker run -it ubuntu bash&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt; Type &lt;code&gt;exit&lt;/code&gt; to stop the container and close the Bash shell.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;start a Dockerized webserver with this command:&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;docker run -d -p 80:80 --name webserver nginx&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;#x5982;&amp;#x679C;&amp;#x5931;&amp;#x6557;&amp;#x53EF;&amp;#x4EE5;&amp;#x8003;&amp;#x616E;&amp;#x66F4;&amp;#x63DB;&amp;#x5176;&amp;#x5B83;&amp;#x7684;Port&lt;br&gt;docker run -d -p 81:80 &amp;#x2013;name webserver nginx&lt;br&gt;&amp;#x5931;&amp;#x6557;&amp;#x4E86; &amp;#x8981;&amp;#x5148; &lt;code&gt;docker ps -a&lt;/code&gt; &amp;#x53D6;&amp;#x5F97;&amp;#x6B32;&amp;#x522A;&amp;#x9664;&amp;#x7684; Container ID&lt;br&gt;&amp;#x518D;&amp;#x57F7;&amp;#x884C; &lt;code&gt;docker rm &amp;lt;Container ID&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Point your web browser at &lt;a href=&quot;http://localhost:81/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://localhost:81/&lt;/a&gt; to display the start page.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Run docker ps while your webserver is running to see details on the container.&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;   PS C:\Users\Lin&amp;gt; docker ps&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                         NAMES&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;8f793ab21f97        nginx               &amp;quot;nginx -g &amp;apos;daemon off&amp;quot;   59 minutes ago      Up 2 minutes        443/tcp, 0.0.0.0:81-&amp;gt;80/tcp   webserver&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;Docker-Getting-Started&quot;&gt;&lt;a href=&quot;#Docker-Getting-Started&quot; class=&quot;headerlink&quot; title=&quot;Docker-Getting-Started&quot;&gt;&lt;/a&gt;Docker-Getting-Start
+    
+    </summary>
+    
+    
+      <category term="Docker" scheme="https://chihkang.github.io/tags/Docker/"/>
+    
+  </entry>
   
   <entry>
     <title>C# Multi Language</title>
