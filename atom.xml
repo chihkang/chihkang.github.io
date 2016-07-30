@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://chihkang.github.io/"/>
-  <updated>2016-07-30T14:09:56.422Z</updated>
+  <updated>2016-07-30T15:31:43.105Z</updated>
   <id>https://chihkang.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://chihkang.github.io/2016/07/30/Docker-Getting-Started/"/>
     <id>https://chihkang.github.io/2016/07/30/Docker-Getting-Started/</id>
     <published>2016-07-30T14:09:56.000Z</published>
-    <updated>2016-07-30T14:09:56.422Z</updated>
+    <updated>2016-07-30T15:31:43.105Z</updated>
     
     <content type="html">&lt;h3 id=&quot;Docker-Getting-Started&quot;&gt;&lt;a href=&quot;#Docker-Getting-Started&quot; class=&quot;headerlink&quot; title=&quot;Docker-Getting-Started&quot;&gt;&lt;/a&gt;Docker-Getting-Started&lt;/h3&gt;&lt;p&gt;&amp;#x6700;&amp;#x8FD1;&amp;#x6280;&amp;#x8853;&amp;#x5F88;&amp;#x706B;&amp;#x7D05;&amp;#x7684;&amp;#x5C31;&amp;#x662F;Docker&amp;#x5566;~&lt;/p&gt;
 &lt;p&gt;&amp;#x7528;&amp;#x6B64;&amp;#x7D00;&amp;#x9304;&amp;#x4E00;&amp;#x4E0B;&amp;#x7DF4;&amp;#x7FD2;&amp;#x4E0A;&amp;#x9047;&amp;#x5230;&amp;#x7684;&amp;#x76F8;&amp;#x95DC;&amp;#x554F;&amp;#x984C;!&lt;/p&gt;
@@ -29,6 +29,8 @@
 &lt;li&gt;&lt;p&gt;&amp;#x4EC0;&amp;#x9EBC;&amp;#x662F;Docker (&lt;a href=&quot;https://philipzheng.gitbooks.io/docker_practice/content/introduction/what.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Docker &amp;#x2014;&amp;#x2014; &amp;#x5F9E;&amp;#x5165;&amp;#x9580;&amp;#x5230;&amp;#x5BE6;&amp;#x8E10;&lt;/a&gt;)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&amp;#x70BA;&amp;#x4EC0;&amp;#x9EBC;&amp;#x8981;&amp;#x7528;Docker (&lt;a href=&quot;https://philipzheng.gitbooks.io/docker_practice/content/introduction/why.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Docker &amp;#x2014;&amp;#x2014; &amp;#x5F9E;&amp;#x5165;&amp;#x9580;&amp;#x5230;&amp;#x5BE6;&amp;#x8E10;&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;#x9019;&amp;#x4E9B;&amp;#x5143;&amp;#x4EF6;&amp;#x5982;&amp;#x4F55;&amp;#x5408;&amp;#x4F5C;&amp;#x5EFA;&amp;#x7ACB;Docker&amp;#x74B0;&amp;#x5883;(&amp;#x6700;&amp;#x5B8C;&amp;#x6574;&amp;#x7684;Docker&amp;#x8056;&amp;#x7D93; - Docker&amp;#x539F;&amp;#x7406;&amp;#x5716;&amp;#x89E3;&amp;#x53CA;&amp;#x5168;&amp;#x74B0;&amp;#x5883;&amp;#x5B89;&amp;#x88DD;)[&lt;a href=&quot;https://joshhu.gitbooks.io/docker_theory_install/content/DockerBible/dockersteps.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://joshhu.gitbooks.io/docker_theory_install/content/DockerBible/dockersteps.html&lt;/a&gt;]&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&quot;Step-1-Install-Docker-for-Windows&quot;&gt;&lt;a href=&quot;#Step-1-Install-Docker-for-Windows&quot; class=&quot;headerlink&quot; title=&quot;Step 1. Install Docker for Windows&quot;&gt;&lt;/a&gt;Step 1. Install Docker for Windows&lt;/h3&gt;&lt;p&gt;&amp;#x5F9E; &lt;a href=&quot;https://www.docker.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.docker.com/&lt;/a&gt;&amp;#x4E0A;&amp;#x53EF;&amp;#x4EE5;&amp;#x5F97;&amp;#x5230;&amp;#x5F88;&amp;#x5B8C;&amp;#x6574;&amp;#x7684;&amp;#x5B89;&amp;#x88DD;&amp;#x8CC7;&amp;#x8A0A;&lt;/p&gt;
