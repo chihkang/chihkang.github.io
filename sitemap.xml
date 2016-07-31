@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://chihkang.github.io/2016/07/31/container/</loc>
+    
+    <lastmod>2016-07-31T05:31:10.590Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://chihkang.github.io/2016/07/30/Docker-Getting-Started/</loc>
     
-    <lastmod>2016-07-30T15:32:42.080Z</lastmod>
+    <lastmod>2016-07-30T15:34:08.420Z</lastmod>
     
   </url>
   

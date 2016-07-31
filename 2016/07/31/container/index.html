@@ -1,0 +1,74 @@
+<!DOCTYPE html><html lang="zh-tw,en,default"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> Hello world in a container · ChihKang's Blog</title><meta name="description" content="Hello world in a container - ChihKang Lin"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="short icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" type="text/css"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">HOME</a></li><li class="nav-list-item"><a href="/archives" target="_self" class="nav-list-link">ARCHIVES</a></li></ul></header><section class="container"><div class="post"><article class="post-block"><h1 class="post-title">Hello world in a container</h1><div class="post-info">2016年7月31日</div><div class="post-content"><h3 id="Hello-world-in-a-container"><a href="#Hello-world-in-a-container" class="headerlink" title="Hello world in a container"></a>Hello world in a container</h3><p>Run a hello wrold container (Power Shell)</p>
+   <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">PS C:\Users\Lin&gt; docker run ubuntu /bin/echo &apos;Hello world&apos;</div><div class="line"></div><div class="line">Hello world</div></pre></td></tr></table></figure>
+<ul>
+<li><code>docker run</code> runs a container.</li>
+<li><code>ubuntu</code> is the image you run, for example the Ubuntu operating system image.<br>When you specify an image, Docker looks first for the image on your Docker host.<br>If the image does not exist locally, then the image is pulled from the public image registry <a href="https://hub.docker.com/" target="_blank" rel="external">Docker Hub.</a></li>
+<li><code>/bin/echo</code> is the command to run inside the new container.</li>
+</ul>
+<p>The container launches. Docker creates a new Ubuntu environment and executes the<br><code>/bin/echo</code> command inside it and then prints out:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Hello world</div></pre></td></tr></table></figure>
+<h3 id="Run-an-interactive-container"><a href="#Run-an-interactive-container" class="headerlink" title="Run an interactive container"></a>Run an interactive container</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">PS C:\Users\Lin&gt; docker run -t -i ubuntu /bin/bash</div><div class="line">root@977143f79b7c:/#</div></pre></td></tr></table></figure>
+<ul>
+<li><code>docker run</code> runs a container.</li>
+<li><code>ubuntu</code> is the image you would like to run.</li>
+<li><code>-t</code> flag assigns a pseudo-tty or terminal inside the new container.</li>
+<li><code>-i</code> flag allows you to make an interactive connection by grabbing the standard in (STDIN) of the container.</li>
+<li><code>/bin/bash</code> launches a Bash shell inside our container.</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">root@977143f79b7c:/# pwd</div><div class="line">/</div><div class="line">root@977143f79b7c:/# ls</div><div class="line">bin   dev  home  lib64  mnt  proc  run   srv  tmp  var</div><div class="line">boot  etc  lib   media  opt  root  sbin  sys  usr</div></pre></td></tr></table></figure>
+<ul>
+<li><code>pwd</code> displays the current directory, the / root directory.</li>
+<li><code>ls</code> displays the directory listing of the root directory of a typical Linux file system.</li>
+</ul>
+<blockquote>
+<p><strong>Now, you can play around inside this container. </strong><br><strong>When completed, run the <code>exit</code> command or enter <code>Ctrl-D</code> to exit the interactive shell.</strong></p>
+</blockquote>
+<h3 id="Start-a-daemonized-Hello-world"><a href="#Start-a-daemonized-Hello-world" class="headerlink" title="Start a daemonized Hello world"></a>Start a daemonized Hello world</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">PS C:\Users\Lin&gt; docker run -d ubuntu /bin/sh -c &quot;while true; do echo hello world; sleep 1; done&quot;</div><div class="line">8b2fee46ae633431c1bb9f6f7abb433d5e29651768435c32d5b0f28ba8a3cb6b</div></pre></td></tr></table></figure>
+<ul>
+<li><code>docker run</code> runs the container.</li>
+<li><code>-d</code> flag runs the container in the background (to daemonize it).</li>
+<li><code>ubuntu</code> is the image you would like to run.</li>
+</ul>
+<p>This long string is called a container ID. </p>
+<p>It uniquely identifies a container so we can work with it.</p>
+<blockquote>
+<p><strong><code>Note</code>: The container ID is a bit long and unwieldy. Later, we will cover the short</strong><br><strong>ID and ways to name our containers to make working with them easier.</strong></p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">PS C:\Users\Lin&gt; docker ps</div><div class="line">CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS               NAMES</div><div class="line">8b2fee46ae63        ubuntu              &quot;/bin/sh -c &apos;while tr&quot;   59 minutes ago      Up 2 minutes                            ecstatic_hopper</div></pre></td></tr></table></figure>
+<ul>
+<li><code>8b2fee46ae63</code> is the shorter variant of the container ID.</li>
+<li><code>ubuntu</code> is the used image.</li>
+<li>the command, status, and assigned name <code>ecstatic_hopper</code>.</li>
+</ul>
+<blockquote>
+<p><strong><code>Note</code>: Docker automatically generates names for any containers started.</strong><br><strong>We&#x2019;ll see how to specify your own names a bit later.</strong> </p>
+</blockquote>
+<p>Now, we know the container is running. But is it doing what we asked it to do? </p>
+<p>To see this we&#x2019;re going to look inside the container using the <code>docker logs</code> command.</p>
+<p>Let&#x2019;s use the container name <code>ecstatic_hopper</code>.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">PS C:\Users\Lin&gt; docker logs ecstatic_hopper</div><div class="line">hello world</div><div class="line">hello world</div><div class="line">hello world</div><div class="line">hello world</div><div class="line">hello world</div><div class="line">hello world</div><div class="line">hello world</div><div class="line">hello world</div><div class="line">hello world</div><div class="line">hello world</div><div class="line">hello world</div><div class="line">hello world</div><div class="line">hello world</div><div class="line">hello world</div><div class="line">...</div></pre></td></tr></table></figure>
+<ul>
+<li><code>docker logs</code> looks inside the container and returns hello world.</li>
+</ul>
+<p>Next, run the <code>docker stop</code> command to stop our detached container.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">PS C:\Users\Lin&gt; docker stop ecstatic_hopper</div><div class="line">ecstatic_hopper</div></pre></td></tr></table></figure>
+<p>The <code>docker stop</code> command tells Docker to politely stop the running container and returns the name of the container it stopped.</p>
+<p>Let&#x2019;s check it worked with the <code>docker ps</code> command.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">PS C:\Users\Lin&gt; docker ps</div><div class="line">CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES</div></pre></td></tr></table></figure>
+<p>Excellent. Our container is stopped.</p>
+<blockquote>
+<ul>
+<li><strong><code>docker ps</code> - Lists containers.</strong></li>
+<li><strong><code>docker logs</code> - Shows us the standard output of a container.</strong></li>
+<li><strong><code>docker stop</code> - Stops running containers.</strong></li>
+</ul>
+</blockquote>
+</div></article></div></section><footer><div class="paginator"><a href="/2016/07/30/Docker-Getting-Started/" class="next">下一篇</a></div><div id="disqus_thread"></div><script>var disqus_shortname = 'chihkang';
+var disqus_identifier = '2016/07/31/container/';
+var disqus_title = 'Hello world in a container';
+var disqus_url = 'https://chihkang.github.io/2016/07/31/container/';
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();</script><script id="dsq-count-scr" src="//chihkang.disqus.com/count.js" async></script><div class="copyright"><p>Powered by Hexo and Theme by <a href="https://github.com/pinggod/hexo-theme-apollo">apollo</a> © 2015 - 2016 <a href="https://chihkang.github.io">ChihKang Lin</a></p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.6.1/MathJax.js?config=TeX-MML-AM_CHTML"></script></body></html>
