@@ -37,7 +37,7 @@
 <li><p>start a Dockerized webserver with this command:</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker run -d -p 80:80 --name webserver nginx</div></pre></td></tr></table></figure>
 <blockquote>
-<p>&#x5982;&#x679C;&#x5931;&#x6557;&#x53EF;&#x4EE5;&#x8003;&#x616E;&#x66F4;&#x63DB;&#x5176;&#x5B83;&#x7684;Port<br>docker run -d -p 81:80 &#x2013;name webserver nginx<br>&#x5931;&#x6557;&#x4E86; &#x8981;&#x5148; <code>docker ps -a</code> &#x53D6;&#x5F97;&#x6B32;&#x522A;&#x9664;&#x7684; Container ID<br>&#x518D;&#x57F7;&#x884C; <code>docker rm &lt;Container ID&gt;</code></p>
+<p>&#x5982;&#x679C;&#x5931;&#x6557;&#x53EF;&#x4EE5;&#x8003;&#x616E;&#x66F4;&#x63DB;&#x5176;&#x5B83;&#x7684;Port<br><code>docker run -d -p 81:80 --name webserver nginx</code><br>&#x5931;&#x6557;&#x4E86; &#x8981;&#x5148; <code>docker ps -a</code> &#x53D6;&#x5F97;&#x6B32;&#x522A;&#x9664;&#x7684; Container ID<br>&#x518D;&#x57F7;&#x884C; <code>docker rm &lt;Container ID&gt;</code></p>
 </blockquote>
 </li>
 <li><p>Point your web browser at <a href="http://localhost:81/" target="_blank" rel="external">http://localhost:81/</a> to display the start page.</p>

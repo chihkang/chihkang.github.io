@@ -105,7 +105,7 @@
     <link href="https://chihkang.github.io/2016/07/30/Docker-Getting-Started/"/>
     <id>https://chihkang.github.io/2016/07/30/Docker-Getting-Started/</id>
     <published>2016-07-30T14:09:56.000Z</published>
-    <updated>2016-07-30T15:34:08.420Z</updated>
+    <updated>2016-07-31T07:07:07.626Z</updated>
     
     <content type="html">&lt;h3 id=&quot;Docker-Getting-Started&quot;&gt;&lt;a href=&quot;#Docker-Getting-Started&quot; class=&quot;headerlink&quot; title=&quot;Docker-Getting-Started&quot;&gt;&lt;/a&gt;Docker-Getting-Started&lt;/h3&gt;&lt;p&gt;&amp;#x6700;&amp;#x8FD1;&amp;#x6280;&amp;#x8853;&amp;#x5F88;&amp;#x706B;&amp;#x7D05;&amp;#x7684;&amp;#x5C31;&amp;#x662F;Docker&amp;#x5566;~&lt;/p&gt;
 &lt;p&gt;&amp;#x7528;&amp;#x6B64;&amp;#x7D00;&amp;#x9304;&amp;#x4E00;&amp;#x4E0B;&amp;#x7DF4;&amp;#x7FD2;&amp;#x4E0A;&amp;#x9047;&amp;#x5230;&amp;#x7684;&amp;#x76F8;&amp;#x95DC;&amp;#x554F;&amp;#x984C;!&lt;/p&gt;
@@ -146,7 +146,7 @@
 &lt;li&gt;&lt;p&gt;start a Dockerized webserver with this command:&lt;/p&gt;
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;docker run -d -p 80:80 --name webserver nginx&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&amp;#x5982;&amp;#x679C;&amp;#x5931;&amp;#x6557;&amp;#x53EF;&amp;#x4EE5;&amp;#x8003;&amp;#x616E;&amp;#x66F4;&amp;#x63DB;&amp;#x5176;&amp;#x5B83;&amp;#x7684;Port&lt;br&gt;docker run -d -p 81:80 &amp;#x2013;name webserver nginx&lt;br&gt;&amp;#x5931;&amp;#x6557;&amp;#x4E86; &amp;#x8981;&amp;#x5148; &lt;code&gt;docker ps -a&lt;/code&gt; &amp;#x53D6;&amp;#x5F97;&amp;#x6B32;&amp;#x522A;&amp;#x9664;&amp;#x7684; Container ID&lt;br&gt;&amp;#x518D;&amp;#x57F7;&amp;#x884C; &lt;code&gt;docker rm &amp;lt;Container ID&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#x5982;&amp;#x679C;&amp;#x5931;&amp;#x6557;&amp;#x53EF;&amp;#x4EE5;&amp;#x8003;&amp;#x616E;&amp;#x66F4;&amp;#x63DB;&amp;#x5176;&amp;#x5B83;&amp;#x7684;Port&lt;br&gt;&lt;code&gt;docker run -d -p 81:80 --name webserver nginx&lt;/code&gt;&lt;br&gt;&amp;#x5931;&amp;#x6557;&amp;#x4E86; &amp;#x8981;&amp;#x5148; &lt;code&gt;docker ps -a&lt;/code&gt; &amp;#x53D6;&amp;#x5F97;&amp;#x6B32;&amp;#x522A;&amp;#x9664;&amp;#x7684; Container ID&lt;br&gt;&amp;#x518D;&amp;#x57F7;&amp;#x884C; &lt;code&gt;docker rm &amp;lt;Container ID&amp;gt;&lt;/code&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Point your web browser at &lt;a href=&quot;http://localhost:81/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://localhost:81/&lt;/a&gt; to display the start page.&lt;/p&gt;
